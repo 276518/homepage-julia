@@ -1,0 +1,49 @@
+.submit-button, .search-bar{
+    background:rgb(240, 213, 233);
+    color:#a14da0;
+    border-color: #a14da0;
+}
+.search-bar{
+    width:30%
+}
+.submit-button{
+    width:8%
+}
+h1{
+    color:#a14da0;
+    font-size:50px;
+    margin-top: 200px;
+}
+body{
+margin-top: 0;
+   background:rgb(255, 210, 240);
+   text-align:center;
+}
+#clock{
+    color:#a14da0;
+    position: absolute;
+    bottom:10px;
+    left:10px;
+    font-size:30px;
+}
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+    clear:both;
+ }
+ .bookmarks i{
+    font-size:22px;
+    margin:0 10px;
+    color:#a14da0;
+    transition:.15s;
+    vertical-align: top;
+ }
+ .bookmarks i:hover{
+    font-size:52px;
+    position:relative;
+ }
+ 
