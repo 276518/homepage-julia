@@ -1,3 +1,6 @@
+html,body{
+    height:100%;
+}
 .submit-button, .search-bar{
     background:rgb(240, 213, 233);
     color:#a14da0;
@@ -21,15 +24,15 @@ h1{
     font-style: italic;
 }
 body{
-margin-top: 0;
+   margin-top: 0;
    background:rgb(255, 210, 240);
    text-align:center;
 }
 #clock{
     color:#a14da0;
     position: absolute;
-    bottom:10px;
-    left:10px;
+    top:80px;
+    left:60px;
     font-size:30px;
 }
 /*
@@ -41,6 +44,9 @@ BOOKMARKS
     padding:30px;
     clear:both;
  }
+ .bookmarks a{
+    text-decoration: none;
+ } 
  .bookmarks i{
     font-size:22px;
     margin:0 10px;
@@ -52,14 +58,18 @@ BOOKMARKS
     font-size:52px;
     position:relative;
  }
+.playlist{
+    margin-top: 100px
+}
+
+
  @media only screen and (max-width: 900px) {
     h1{
         margin-top:50px;
         font-size:100px;
     }
  }
- 
- 
+
  @media only screen and (max-width: 600px) {
     h1{
         margin-top:50px;
@@ -69,4 +79,3 @@ BOOKMARKS
     margin:0 15px;
     }
  }
- 
