@@ -61,6 +61,12 @@ BOOKMARKS
 .playlist{
     margin-top: 100px
 }
+#calc{
+ opacity:0;
+ position: relative;
+
+ }
+
 
 
  @media only screen and (max-width: 900px) {
